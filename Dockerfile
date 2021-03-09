@@ -9,7 +9,7 @@ LABEL author.name="Ravindra Nallamothu" \
       description="Demo Application"
       
 # Copy jar file to specified folder in Base Image
-COPY ./SpringBooot-HelloWorld-0.0.1-SNAPSHOT.jar /usr/app/
+COPY ./target/SpringBooot-HelloWorld-0.0.1-SNAPSHOT.jar /usr/app/
 
 # Default Working Directory
 WORKDIR /usr/app/
